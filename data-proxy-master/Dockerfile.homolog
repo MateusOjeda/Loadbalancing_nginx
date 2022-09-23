@@ -1,2 +1,0 @@
-FROM nginx:1.15-alpine
-COPY ./homolog_data/nginx /etc/nginx/conf.d

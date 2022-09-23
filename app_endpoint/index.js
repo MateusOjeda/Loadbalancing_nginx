@@ -6,6 +6,6 @@ app.listen(
     () => console.log(`Alive on http://localhost:${PORT}`)
 )
 
-app.get(`/${PORT}`, (req, res) => {
+app.get(`/`, (req, res) => {
     res.status(200).send(`Reached port ${PORT}`);
 })
