@@ -1,0 +1,2 @@
+FROM nginx:1.15-alpine
+COPY ./prod_data/nginx /etc/nginx/conf.d
